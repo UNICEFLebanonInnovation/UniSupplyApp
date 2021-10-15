@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:id="@+id/layout_childList"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Beneficiary"
+                android:id="@+id/textView" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+
+
+
+
+        <ImageView
+                android:background="@drawable/abc_item_background_holo_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="id number:"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficiary Details"
+                android:layout_marginBottom="10dp"
+                />
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/id_number"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_idNumber"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/id_type"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_idType"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/phone_number"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView_familyPhoneNumber"
+                    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/guardians_name"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView_familySurname"
+                    />
+
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content" android:visibility="visible">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Father's Name:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_fatherName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content" android:visibility="visible">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mother's Name:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_motherName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/number_of_children"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_numberOfKids"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_checkButtons"
+                android:gravity="center" android:visibility="gone">
+
+
+            <Button
+                    android:id="@+id/button_cancel"
+                    android:text="Go Back"
+                    android:background="@drawable/custombutton_red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    />
+
+            <Button
+                    android:id="@+id/button_checked"
+                    android:text="Correct"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/custombutton_green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@drawable/customborder"
+                android:id="@+id/layout_children"
+                >
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Children List:"
+                    android:paddingLeft="10dp"/>
+            <com.unicefwinterizationplatform.winterization_android.NonScrollListView
+                    android:id="@+id/voucher_list"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:isScrollContainer="true"/>
+
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/add_child"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingRight="80dp"
+                    android:paddingLeft="80dp"
+
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:background="@drawable/custombutton"
+                    android:id="@+id/add_child_btn"/>
+
+        </LinearLayout>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/complete" android:layout_marginTop="30dp"
+                android:visibility="visible"
+                android:id="@+id/button_complete" android:layout_gravity="center" android:gravity="center" android:background="@drawable/custombutton_green"  />
+
+
+
+        <!--LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_checkButtons"
+                android:gravity="center">
+            <Button
+                    android:id="@+id/button_checked"
+                    android:text="Correct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    />
+
+            <Button
+                    android:id="@+id/button_cancel"
+                    android:text="Go Back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    />
+        </LinearLayout-->
+
+
+
+    </LinearLayout>
+</ScrollView>

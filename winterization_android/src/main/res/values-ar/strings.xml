@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UniSupply</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="action_testing">testing</string>
+    <string name="idSpinnerPrompt">ID Type</string>
+
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="custom_layout">Custom Layout</string>
+    <string name="scan_from_fragment">Scan from fragment</string>
+    <string name="encode_text">Encode Text</string>
+
+    <string name="add_household">إضافة المنزل</string>
+    <string name="site_details">تفاصيل الموقع</string>
+    <string name="site_name">:إسم الموقع</string>
+    <string name="geolocation_data">:تحديد الموقع الجيوغرافي</string>
+    <string name="latitude">:خط العرض </string>
+    <string name="longitude">:خط الطول</string>
+    <string name="altitude">:إرتفاع</string>
+    <string name="household_details">تفاصيل المنزل</string>
+    <string name="id_number">:رقم الهوية</string>
+    <string name="id_type">:نوع الهوية</string>
+    <string name="phone_number">:رقم الهاتف</string>
+    <string name="family_surname">:إسم العائلة </string>
+    <string name="first_name">:إسم الأول </string>
+    <string name="middle_name">:إسم الوالد </string>
+    <string name="list_of_children">:قائمة الأولاد</string>
+    <string name="add_child">إضافة ولد</string>
+    <string name="next">التالي</string>
+
+    <string name="success_title">لقد تم إضافة المنزل إلى الموقع بنجاح</string>
+    <string name="summary_psge">الملخص</string>
+    <string name="number_site">:عدد المنازل في الموقع</string>
+    <string name="edit_last_entry">تحرير ماسبق</string>
+    <string name="add_new_household">إضافة منزل جديد </string>
+
+    <string name="select_new_site">إختيار موقع جديد</string>
+    <string name="home_screen">الرجوع إلى صفحة الأساسية</string>
+    <string name="search_households">البحث عن المنازل</string>
+
+    <string name="age">:العمر* </string>
+    <string name="gender">:الجنس </string>
+    <string name="edit_child">تحرير الولد</string>
+
+    <string name="remove_child">حذف الولد</string>
+
+    <string name="disclaimer">*Please use child\'s age at last birthday.</string>
+    <string name="barcode_number">رقم الباركود</string>
+    <string name="edit_household">تحرير المنزل</string>
+
+    <string name="reason_edit">:سبب التحرير</string>
+    <string name="save_household">حفظ المنزل</string>
+
+    <string name="delete_household">حذف المنزل</string>
+
+    <string name="set_barcode">ضبط</string>
+
+    <string name="kit_size">:حجم العدة</string>
+    <string name="remove_kit">حذف</string>
+    <string name="save_changes">حفظ</string>
+
+    <string name="edit_kit">تحرير العدة </string>
+
+    <string name="select_site_info">إختيار تفاصيل الموقع</string>
+    <string name="get_site">الحصول على الموقع</string>
+    <string name="go_back">الرجوع</string>
+
+    <string name="correct">صح</string>
+    <string name="kit_list">قائمة العدة</string>
+    <string name="complete">إنهاء</string>
+
+    <string name="begin_assessments">بدأ المعاينة</string>
+    <string name="voucher_distribution"> بدء توزيع قسائم</string>
+    <string name="main_scan_barcode">Scan a Barcode</string>
+    <string name="main_search_households">البحث عن المنازل</string>
+    <string name="select_location_title">إختيار العنوان</string>
+
+    <string name="assessments">المعاينة</string>
+    <string name="distribution">التوزيع</string>
+    <string name="task_select">إختيار المهمة</string>
+
+    <string name="sync_status">وضع المزامنة</string>
+    <string name="network_status">وضع الشبكة</string>
+    <string name="progress_pull">تحميل التقدم</string>
+    <string name="progress_push">تنسيق التقدم</string>
+
+    <string name="force_sync">فرد المزامنة</string>
+    <string name="id_notes">:ملاحظات</string>
+    <string name="relationship_type">:ارتباط مع الأولاد</string>
+    <string name="registered">HouseHold registered to UNHCR?</string>
+    <string name="yes_unhcr">نعم</string>
+    <string name="no_unhcr">كلا</string>
+    <string name="start_distribution">بدأ التوزيع</string>
+
+    <string name="new_distribution">بدأ التوزيع جديد</string>
+    <string name="not_complete">Partially Complete</string>
+    <string name="vouchers">قسائم</string>
+    <string name="select_sdclocation_title">إختيار العنوان SDC</string>
+    <string name="name">الاسم</string>
+    <string name="voucher_code">رقم القسيمة</string>
+    <string name="guardians_name"> اسم الولي</string>
+    <string name="number_of_children"> عدد الأولاد</string>
+    <string name="go_back_vouchers">    سيتم فقدان جميع البيانات. المتابعة؟</string>
+
+</resources>

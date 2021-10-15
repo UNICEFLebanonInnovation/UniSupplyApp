@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:keepScreenOn="true">
+
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/select_site_info"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
+                android:id="@+id/textView" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:text="@string/site_name"
+                    android:layout_marginLeft="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="true" android:clickable="true"
+                    android:id="@+id/textView_siteSelection"
+                    android:hint="please select site"
+                    android:layout_marginLeft="10dp"
+
+                    android:textSize="20sp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+
+
+
+        </LinearLayout>
+    <Button
+            android:id="@+id/button_getPCode"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custombutton"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:textSize="20sp"
+            android:text="@string/get_site"
+            />
+    <LinearLayout
+            android:orientation="vertical" android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_geoData"
+            android:visibility="gone"
+            >
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:text="Geolocation Data:"
+                    android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical" android:paddingBottom="5dp"
+                android:layout_width="match_parent" android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                >
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="5dp"
+                android:layout_width="match_parent" android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Latitude:"
+                    android:textSize="15sp"
+
+                    android:paddingLeft="10dp"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+
+                    android:id="@+id/editText_latitude" android:hint="Latitude"      android:imeOptions="actionDone"
+                    />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="5dp"
+                android:layout_width="match_parent" android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Longitude:"
+                    android:textSize="15sp"
+
+                    android:paddingLeft="10dp"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+
+                    android:id="@+id/editText_longitude" android:hint="Longitude" android:singleLine="true"             android:imeOptions="actionDone"
+                    />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent" android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Altitude:"
+                    android:textSize="15sp"
+
+                    android:paddingLeft="10dp"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+
+                    android:id="@+id/editText_altitude" android:hint="Altitude" android:singleLine="true"             android:imeOptions="actionDone"
+                    />
+        </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_setGeoData"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/custombutton_green"
+            android:text="Proceed"
+        />
+    </LinearLayout>
+
+</LinearLayout>

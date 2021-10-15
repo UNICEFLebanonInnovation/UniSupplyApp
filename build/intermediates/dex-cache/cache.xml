@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2ece1bd57ac7b4c315b7505b65ac79cb1da4270">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/jackson-core-2.5.0_c259be83da07915dcc6b19e2c74e3258b926b429.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.gradle/caches/modules-2/files-2.1/com.github.oxo42/stateless4j/2.4.0/128aca4ace585f0b42faa739d0b968a154debb7a/stateless4j-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="128aca4ace585f0b42faa739d0b968a154debb7a">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/stateless4j-2.4.0_441abea903ffb4715696ff01db32cef9112ecfb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.android/build-cache/98b6dffdd9ff0f9d33a1d4d78b1f9a28e246b994/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/classes_7957f39d550d1b5b5345e6d02a0f7247cbbd4962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.android/build-cache/4f1f2ae11bf4fc015a7deece510a65bf6739b19f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/classes_8d9f91a10b9c2e7ff8b0a8a4df1e9560cb0a226e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-java-core/1.1.0/d38732525a19a6d32b353c05dfeff70a9b3361f4/couchbase-lite-java-core-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d38732525a19a6d32b353c05dfeff70a9b3361f4">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/couchbase-lite-java-core-1.1.0_47783b20fdd81d57dcc8331c12a03e91d9df6d8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.android/build-cache/c8f6739a07c3d60d225df02af26f29cc6f11a38d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/classes_7de6f85a6a169b7262f7bc6811dc548916e6f1d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/e019d15a13a9786f881141d2df6654b8510bce8b/core-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/core-3.2.0_c7ec0856f8db0f8755d442a09e1c4e5c523e3170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.3/a3bd5f9dd0a98914faee607d51e22ae172cad4a/MPAndroidChart-v2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a3bd5f9dd0a98914faee607d51e22ae172cad4a">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.3_89907ec1fd88c1ddf6140f718b53c38cd7e7f7e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.android/build-cache/12479c5048b9c13b834fb388bee1b062d780636e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7fabab55757896e15b73ece0d813e167a95278dd">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/classes_49095f79f752ee3af8568e9ec02dda8357e06ba4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.android/build-cache/6036c299218826c45d600c74b817c4b012b210aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/classes_5688a5e35e5ccb1089ab2977ff4846d4b43cdedf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/Desktop/WINTER/iSupply/winterization_android/libs/sqlcipher.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9bbda56959cfe0a300ea789d47259c0e911d5d75">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/sqlcipher_09e41150ed2267c8750433a3863889a60d8824ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_6c345f43537af8d7f3b1696c4b5c1cbf2b1bd458.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/Desktop/WINTER/iSupply/volley/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d2b2f7ad7a28722897eb207b971bdab64cbc443">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/classes_4ccc457e224a8c2731f39df918d632a550bbcf7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.android/build-cache/4f1f2ae11bf4fc015a7deece510a65bf6739b19f/output/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_b6356512d1766ffb0641821d2f532cfc289e2276.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/Desktop/WINTER/iSupply/winterization_android/libs/zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/zbar_ca5e072827e260cec53249e51f2e9d6a23a64155.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/Desktop/WINTER/iSupply/winterization_android/libs/commons-codec.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/commons-codec_4a021cd6c1a23ea3a92bbaaea356a89a18214786.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2a55a3375bc1cef830ca426d68d2ea22961190e">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/jackson-annotations-2.5.0_054268a65be2c9b84d23f2716c1f84b7dbbd30ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.android/build-cache/826b24b89186dc2e630f00ff1f9237afcbc8c599/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/classes_cec98b89f2ddadd23bdeaf5b42af2f1ee210ae0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="489b7552dd3322b63f694122d16ce62c21c303b5">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/jackson-databind-2.5.0_9fc3d919cbf63053c4debc2bf2c658f2de73c31d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ali/Desktop/WINTER/iSupply/winterization_android/libs/guava-r09.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ef348209d301a97a96a0f57954d54f80244a1614">
+        <dex dex="/Users/ali/Desktop/WINTER/iSupply/winterization_android/build/intermediates/pre-dexed/debug/guava-r09_623e4dee8ebbf7d3fb2af921615ce94892867572.jar" />
+    </item>
+
+</items>

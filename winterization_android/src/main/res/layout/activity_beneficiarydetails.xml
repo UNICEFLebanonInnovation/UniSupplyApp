@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/main_layout"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/household_details"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/customborder3"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beneficiary Details:"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assistance Type:"
+            android:id="@+id/textView_assistanceType"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID Number:"
+                android:id="@+id/textView_idNumber"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR Code:"
+            android:id="@+id/textView_barcode"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Type:"
+            android:id="@+id/textView_idType"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:id="@+id/textView_firstName"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Middle Name:"
+            android:id="@+id/textView_middleName"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Surname:"
+            android:id="@+id/textView_familySurname"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mother's Name:"
+            android:id="@+id/textView_motherName"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relationship_type"
+            android:id="@+id/textView_relationshipType"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:id="@+id/textView_phoneField"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Owner:"
+            android:id="@+id/textView_phoneOwner"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:id="@+id/textView_gender"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marital Status:"
+            android:id="@+id/textView_maritalField"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth:"
+            android:id="@+id/textView_DoB"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="is the Principle Applicant still present?"
+            android:id="@+id/textView_pa"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is their a member over 18 who will be able to collect the card?"
+            android:id="@+id/textview_over18"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Children With Disabilities:"
+            android:id="@+id/textView_disabilities"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Will the family move in the future?"
+            android:id="@+id/textView_familyMove"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:background="@drawable/customborder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/list_of_children"
+                android:textSize="15sp"
+
+                android:paddingLeft="10dp"/>
+            <com.unicefwinterizationplatform.winterization_android.NonScrollListView
+                android:id="@+id/child_list"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Members in the family: "
+            android:id="@+id/textView_familycount"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/layout_familylist"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:background="@drawable/customborder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Family Members: "
+                android:textSize="15sp"
+
+                android:paddingLeft="10dp"/>
+            <com.unicefwinterizationplatform.winterization_android.NonScrollListView
+                android:id="@+id/family_list"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/custombutton_green"
+            android:text="Edit Form" android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/button_editBeneficiary" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>

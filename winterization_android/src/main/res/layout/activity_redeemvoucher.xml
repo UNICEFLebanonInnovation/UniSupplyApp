@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:id="@+id/layout_childList"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Child's Voucher"
+                android:id="@+id/textView" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+
+
+
+
+        <ImageView
+                android:background="@drawable/abc_item_background_holo_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="id number:"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child Details"
+                android:layout_marginBottom="10dp"
+                />
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Childs Name:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/textView_childsName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Voucher Code:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:id="@+id/textView_voucherCode"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Age:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:id="@+id/textView_age"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gender:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:id="@+id/textView_gender"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Status:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:id="@+id/textView_status"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+        </LinearLayout>
+
+
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Redeem Voucher" android:layout_marginTop="30dp"
+                android:id="@+id/button_redeem" android:layout_gravity="center" android:gravity="center" android:background="@drawable/custombutton_green"  />
+
+        <ImageView
+                android:background="@drawable/abc_item_background_holo_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="300dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="id number:"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/household_details"
+                android:layout_marginBottom="10dp"
+                />
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/id_number"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_idNumber"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/phone_number"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView_familyPhoneNumber"
+                    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gaurdian's Name:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView_familySurname"
+                    />
+
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content" android:visibility="gone">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Father's Name:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_fatherName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content" android:visibility="gone">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mother's Name:"
+                    android:paddingLeft="10dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_motherName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

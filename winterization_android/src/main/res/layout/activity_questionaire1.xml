@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CSC Questions"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+
+
+      </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Do you have a CSC Card?"
+            android:textSize="20sp"
+            android:layout_weight="0.5"
+            android:layout_marginTop="10dp"
+            android:id="@+id/q1" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/custombutton_green"
+            android:text="Yes"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/button_q1YES"
+            android:layout_weight="0.25"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/custombutton_red"
+            android:text="No"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/button_q1NO"
+            android:layout_weight="0.25"
+            />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Do you have a CSC Card?"
+                android:textSize="20sp"
+
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"/>
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:id="@+id/myRadioGroup"
+                android:checkedButton="@+id/sound"
+                android:orientation='horizontal'>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sound"
+                    android:text="Sound" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vibration"
+                    android:text="Vibration" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/silent"
+                    android:text="Silent" />
+
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>

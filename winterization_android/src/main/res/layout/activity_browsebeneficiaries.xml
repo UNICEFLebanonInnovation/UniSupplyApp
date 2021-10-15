@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/layout_browse"  android:keepScreenOn="true">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:id="@+id/layout_child_buttons"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content">
+
+        <Button  android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:text="Search other SDCs"
+                 android:background="@drawable/custombutton"
+                 android:id="@+id/button_searchSDCS" android:layout_gravity="right" android:textSize="28dp"
+                 android:layout_marginRight="10dp"
+                 android:paddingTop="10dp"
+                 android:paddingBottom="10dp" android:visibility="gone"/>
+
+    <Button  android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:text="Scan"
+             android:background="@drawable/custombutton"
+             android:id="@+id/button_scanBarcode" android:layout_gravity="right" android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:paddingTop="10dp"
+             android:paddingBottom="10dp"/>
+
+        </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/search_households"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal" android:textSize="25dp"
+            android:textIsSelectable="true" android:paddingBottom="20dp"/>
+    <EditText
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/editText_searchBeneficiaries" android:layout_gravity="left"
+            android:textAlignment="center" android:gravity="left" android:hint="Search terms"/>
+    <Spinner
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/search_array"
+            android:id="@+id/spinner_searchType" android:layout_gravity="left" android:gravity="center"/>
+
+    <Button  android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:text="Search"
+             android:background="@drawable/custombutton"
+             android:id="@+id/button_search" android:layout_gravity="left" android:textSize="20dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+
+             android:paddingTop="10dp"
+             android:paddingBottom="10dp"/>
+
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_beneficiaries" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

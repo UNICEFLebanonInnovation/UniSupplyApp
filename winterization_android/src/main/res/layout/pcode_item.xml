@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:tag="pcode_back"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView android:tag="pcodeID"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="device"
+              android:textStyle="bold"
+              android:layout_marginLeft="20dp"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="10dp"
+              android:textSize="22dp"
+            />
+
+
+    <TextView android:tag="pcodeName"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textStyle="bold"
+              android:layout_marginLeft="20dp"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="10dp"
+              android:text="device"
+              android:textSize="22dp"
+            />
+
+</LinearLayout>
+
+    <TextView android:tag="cadastral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="device"
+        android:textSize="18dp"
+        />
+
+    <TextView android:tag="district"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="device"
+        android:textSize="18dp"
+        />
+
+</LinearLayout>

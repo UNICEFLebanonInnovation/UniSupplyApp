@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_child"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Add Family Member"
+        android:layout_marginTop="10sp"
+        android:id="@+id/textView_titleText" android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:weightSum="1"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/id_type"
+                android:textSize="20sp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+            <Spinner
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:entries="@array/id_types2"
+                android:id="@+id/spinner_idTypes"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/id_number"
+                android:textSize="20sp"
+
+                android:paddingRight="10dp"
+
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ID Number"
+                android:textSize="15sp"
+                android:id="@+id/editText_idNumber"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/layout_child_buttons"
+        android:layout_marginTop="45dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Add Family Member"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:background="@drawable/custombutton_green"
+
+            android:id="@+id/add_family_btn" android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Edit Family Member"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custombutton"
+
+            android:id="@+id/edit_family_btn" android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Family Member"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:background="@drawable/custombutton_red"
+
+            android:id="@+id/remove_family_btn" android:layout_gravity="center_horizontal"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="*Only add the adult members of the family."
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

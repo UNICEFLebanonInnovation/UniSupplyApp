@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UnicefWinterizationPlatform.iml" filepath="$PROJECT_DIR$/UnicefWinterizationPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/couchbase-lite-android/couchbase-lite-android.iml" filepath="$PROJECT_DIR$/libraries/couchbase-lite-android/couchbase-lite-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/couchbase-lite-java-core/couchbase-lite-java-core.iml" filepath="$PROJECT_DIR$/libraries/couchbase-lite-java-core/couchbase-lite-java-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/winterization_android/winterization_android.iml" filepath="$PROJECT_DIR$/winterization_android/winterization_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zbar/zbar.iml" filepath="$PROJECT_DIR$/zbar/zbar.iml" />
+    </modules>
+  </component>
+</project>
+

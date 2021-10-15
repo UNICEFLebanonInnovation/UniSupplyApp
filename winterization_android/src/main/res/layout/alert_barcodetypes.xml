@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:padding="10dp" >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="select Barcode Type"
+            android:gravity="center"
+            android:id="@+id/TextView_selection"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    <!--Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voucher"
+            android:id="@+id/button_scanVoucher"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:id="@+id/button_scanId"
+            android:textAppearance="?android:attr/textAppearanceLarge" /-->
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender_array">
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+
+    <string-array name="search_array">
+        <item>By ID</item>
+        <item>By pcode name</item>
+        <item>By barcode number</item>
+    </string-array>
+
+
+
+
+    <string-array name="relationship_types">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Guardian</item>
+    </string-array>
+
+    <string-array name="id_types">
+        <item>National</item>
+        <item>Other</item>
+        <item>UNHCR</item>
+    </string-array>
+
+
+    <string-array name="id_types_vouchers">
+        <item>UNHCR</item>
+        <item>NPTP</item>
+    </string-array>
+
+    <string-array name="kit_types">
+        <item>3 months</item>
+        <item>12 months</item>
+        <item>2 years</item>
+        <item>3 years</item>
+        <item>5 years</item>
+        <item>7 years</item>
+        <item>9 years</item>
+        <item>12 years</item>
+        <item>14 years</item>
+    </string-array>
+
+
+    <string-array name="age_array">
+        <item>0 to 3 months</item>
+        <item>3 to 12 months</item>
+        <item>1 year old</item>
+        <item>2 years old</item>
+        <item>3 years old</item>
+        <item>4 years old</item>
+        <item>5 years old</item>
+        <item>6 years old</item>
+        <item>7 years old</item>
+        <item>8 years old</item>
+        <item>9 years old</item>
+        <item>10 years old</item>
+        <item>11 years old</item>
+        <item>12 years old</item>
+        <item>13 years old</item>
+        <item>14 years old</item>
+    </string-array>
+
+    <string-array name="age_array2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+</resources>

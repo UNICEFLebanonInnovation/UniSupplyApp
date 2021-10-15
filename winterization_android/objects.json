@@ -1,0 +1,420 @@
+###########################
+#####CURRENT GLOBAL DOC####
+###########################
+{
+"_id": "aaa-demo-partner-aaa-00003-family-hygiene-kit-bhojpur-3000",
+"_rev": "5-2fe20a2f670d01a488b579de805c476f",
+"channels": [
+"aaademo"
+],
+"completed": true,
+"country": "uat",
+"creation_date": "2016-02-10T13:38:20.812466",
+"criticality": "0",
+"distribution_id": 166,
+"history": [
+{
+"action": "Delivered",
+"datetime": "2016-02-11 10:25",
+"delivered": "8",
+"item_type": "Family hygiene kit",
+"organisation": "aaademo",
+"quantity": "3000",
+"user": "aaademo"
+},
+{
+"action": "Delivered",
+"datetime": "2016-02-11 10:34",
+"delivered": "16",
+"item_type": "Family hygiene kit",
+"organisation": "aaademo",
+"quantity": "3000",
+"user": "aaademo"
+},
+{
+"action": "Delivered",
+"datetime": "2016-02-11 11:24",
+"delivered": "24",
+"item_type": "Family hygiene kit",
+"organisation": "aaademo",
+"quantity": "3000",
+"user": "aaademo"
+},
+{
+"action": "DELIVERED",
+"datetime": "2016-02-11 12:11",
+"delivered": "38",
+"item_type": "Family hygiene kit",
+"organisation": "aaademo",
+"quantity": "3000",
+"user": "aaademo"
+}
+],
+"icon": "institution",
+"intervention": "AAA 00003: Distribution of hygiene kits in Kabul",
+"item_list": [
+{
+"comments": [],
+"delivered": 38,
+"delivery_status": "PARTIALLY_COMPLETED",
+"item_id": null,
+"item_type": "Family hygiene kit",
+"quantity": 3000
+}
+],
+"location": {
+"location_type": "District",
+"p_code": "10",
+"p_code_name": "BHOJPUR"
+},
+"name": "BHOJPUR",
+"partner_name": "aaademo",
+"type": "distribution"
+}
+}
+##############
+#####v:2.1####
+##############
+{
+    "_id": "id-0",
+    "_rev": "23-7ef31017af72342414d4dca39de1e30a",
+    "distribution_type": "institution",
+    "barcode_num": "",
+    "child_list": [],
+    "completed": true,
+    "creation_date": "2015-01-13T10:27:57.505Z",
+    "criticality": "0",
+    "family_name": "Smith",
+    "first_name": "Steve",
+    "id_exists": false,
+    "id_type": "Other",
+    "item_list": [
+        {
+            "delivered": "30",
+            "delivery_status": "PARTIALLY_COMPLETED",
+            "item_id": "SB001",
+            "item_type": "School in a Box",
+            "quantity": "30"
+        }
+    ],
+    "location": {
+        "latitude": "34.239625",
+        "location_type": "school",
+        "longitude": "35.822314",
+        "p_code": "",
+        "p_code_name": "Banepa Pra V",
+        "parent": {
+            "latitude": "34.239625",
+            "location_type": "VDC/Municipality",
+            "longitude": "35.822314",
+            "p_code": "524 2 05 24 3 003",
+            "p_code_name": "Banepa N.P.",
+            "parent": {
+                "latitude": "34.239625",
+                "location_type": "District",
+                "longitude": "35.822314",
+                "p_code": "524 2 05 24",
+                "p_code_name": "KAVREPALANCHOK"
+            }
+        }
+    },
+    "middle_name": "mohamad",
+    "name": "Banepa Pra V",
+    "official_id": "947-13c00000",
+    "partner_name": "unicef-nco",
+    "phone_number": "71615486",
+    "relationship_type": "Director",
+    "type": "distribution"
+}
+
+
+
+##############
+#####v:2.0####
+##############
+{
+    "_id": "id-5",
+    "assessment_type": "institution",
+    "barcode_num": "",
+    "child_list": [],
+    "completed": true,
+    "creation_date": "2015-01-13T10:27:57.505Z",
+    "criticality": "0",
+    "distribution_date": "2015-01-13T10: 27: 57.505Z",
+    "family_name": "Smith",
+    "first_name": "Steve",
+    "history": [],
+    "id_exists": false,
+    "id_notes": "",
+    "id_type": "Other",
+    "item_list": [
+        {
+            "comment": "",
+            "comments": [],
+            "delivered": "30",
+            "delivery_status": "PARTIALLY_COMPLETED",
+            "item_id": "SB001",
+            "item_type": "Education Toolkit",
+            "quantity": "30"
+        }
+    ],
+    "location": {
+        "latitude": "34.239625",
+        "location_type": "school",
+        "longitude": "35.822314",
+        "p_code": "",
+        "p_code_name": "Chandeshwori Bal Sadan Pra V",
+        "parent": {
+            "latitude": "34.239625",
+            "location_type": "VDC/Municipality",
+            "longitude": "35.822314",
+            "p_code": "524 2 05 24 3 003",
+            "p_code_name": "Banepa N.P.",
+            "parent": {
+                "latitude": "34.239625",
+                "location_type": "District",
+                "longitude": "35.822314",
+                "p_code": "524 2 05 24",
+                "p_code_name": "KAVREPALANCHOK"
+            }
+        }
+    },
+    "middle_name": "mohamad",
+    "name": "Chandeshwori Bal Sadan Pra V",
+    "official_id": "947-13c00000",
+    "partner_name": "unicef-nyh",
+    "phone_number": "71615486",
+    "relationship_type": "Director",
+    "type": "assessment"
+}
+
+
+
+###############
+###############
+###############
+
+
+{
+    "type": "user",
+    "username": "jcranwellward",
+    "password": "somepass",
+    "organisation": "UNICEF",
+    "roles": [] // any of: EDUCATION,WASH,HEALTH,NUTRITION,CHILD PROTECTION,WINTERIZATION. (MAY BE REMOVED ALL TOGETHER)
+}
+
+{
+    "type": "location",
+    "site-type": "IS"  //"SCHOOL","INSTITUTION"
+    "p_code": "00000-00-000",
+    "P_code_name": "Baalbak 003",
+    "longitude": "34.00000",
+    "latitude": "32.00000"
+}
+#######################################################################################
+##VERSION 1:Separate Distribution Doc ID's (Recommended) ##############################
+############################################################################
+
+
+{
+    "_docid":""
+    "name": "" // name of instituion if applicable.
+    "partner_name": "oxfam"
+    "type" : "assessment",
+    "creation_date" : "2015-01-13T10:27:57.505Z",
+    "distribution_date": ""2015-01-13T10:27:57.505Z"
+    "assessment_type" : institution | family | child (NEW)
+    "location" : {
+        "location_type": "School | Informal Settlement | Development Center" ... etc (NEW)
+        "latitude" : "34.239625",
+        "p_code" : "34336-01-001",
+        "p_code_name" : "Kfar Hilda 001",
+        "longitude" : "35.822314"
+        "parent": {
+            // Nested location object describing its parent
+        }
+    },
+    "location_distribution" : {
+        "location_type": "School | Informal Settlement | Development Center" ... etc (NEW)
+        "latitude" : "34.239625",
+        "p_code" : "34336-01-001",
+        "p_code_name" : "Kfar Hilda 001",
+        "longitude" : "35.822314"
+    },
+    "id_type" : "UNHCR | National ID | Other",(Can be left blank)
+    "id_exists" : false,
+    "official_id" : "947-13c00000", (we take the id of the head of the site to identify the person correctly.. if applicable)
+    "relationship_type" : "Father | Mother | Guardian | NGO | Director | (Title)" (change to relation_type)
+    "first_name" : "hussein", (for a site, we put the name of the head of the site along with the rest of his details)
+    "middle_name" : "mohamad",
+    "family_name" : "Al mohamad",
+    "barcode_num" : "7323345585",(to remove or not to remove ... that is the question)
+    "phone_number" : "71615486",
+    "criticality" : "0", (interesting if we reactivate this one .. to place critical values first, and perhaps send internal notifications if some items have not been distributed on time)
+    "completed" : true,
+    "id_notes" : "",
+
+    "item_list" : [
+            {
+                "item_type":""
+                "item_id" : ""
+                "quantity": ""
+                "delivered":""
+                "delivery_status": "", //COMPLETED, PARTIALLY_COMPLETED, NOT_COMPLETED
+
+            },
+            {
+                "item_type":""
+                "item_id" : ""
+                "quantity": ""
+                "delivered":""
+                "delivery_status": "", //COMPLETED, PARTIALLY_COMPLETED, NOT_COMPLETED
+            }
+
+    ]
+
+    "child_list" : [  (We may need to change the objects in the array)
+        {
+            "status" : "COMPLETED",
+            "name" : "",
+            "gender" : "Girl",
+            "age" : "3 years",
+            "kit" : "3 years",
+            "reason" : "",
+            "voucher_code" : ""
+        },
+        {
+            "status" : "COMPLETED",
+            "name" : "",
+            "gender" : "Boy",
+            "age" : "Under 24 months",
+            "kit" : "12 months",
+            "reason" : "",
+            "voucher_code" : ""
+        }
+    ],
+    "history" : [
+        {
+            "action" : "HouseHold Added",
+            "additional_info" : "",
+            "organisation" : "oxfam",
+            "user" : "oxfam",
+            "datetime" : "2015-01-13T10:27:57.505Z"
+        },
+        {
+            "action" : "Household Completed",
+            "additional_info" : "",
+            "organisation" : "oxfam",
+            "user" : "oxfam",
+            "datetime" : "2015-02-17 12:18"
+        }
+    ]
+}
+
+############################################################################################
+##VERSION 2: Same Doc ID for Distribution's of one institution (Not Recommended)##############################
+############################################################################################
+
+
+{
+    "_docid":"" //name or id of instituion
+    "name": "" // name of instituion
+    "type" : "assessment",
+    "creation_date" : "2015-01-13T10:27:57.505Z",
+    "distribution_date": ""2015-01-13T10:27:57.505Z"
+    "assessment_type" : institution | family | child (NEW)
+    "location" : {
+        "location_type": "School | Informal Settlement | Development Center" ... etc (NEW)
+        "latitude" : "34.239625",
+        "p_code" : "34336-01-001",
+        "p_code_name" : "Kfar Hilda 001",
+        "longitude" : "35.822314"
+    },
+    "location_distribution" : {
+        "location_type": "School | Informal Settlement | Development Center" ... etc (NEW)
+        "latitude" : "34.239625",
+        "p_code" : "34336-01-001",
+        "p_code_name" : "Kfar Hilda 001",
+        "longitude" : "35.822314"
+    },
+    "id_type" : "UNHCR | National ID | Other",(Can be left blank)
+    "id_exists" : false,
+    "official_id" : "947-13c00000", (we take the id of the head of the site to identify the person correctly.. if applicable)
+    "relationship_type" : "Father | Mother | Guardian | NGO | Director | (Title)" (change to relation_type)
+    "first_name" : "hussein", (for a site, we put the name of the head of the site along with the rest of his details)
+    "middle_name" : "mohamad",
+    "family_name" : "Al mohamad",
+    "barcode_num" : "7323345585",(to remove or not to remove ... that is the question)
+    "phone_number" : "71615486",
+    "criticality" : "0", (interesting if we reactivate this one .. to place critical values first, and perhaps send internal notifications if some items have not been distributed on time)
+    "completed" : true,
+    "id_notes" : "",
+
+    distributions: [
+    "dist1": {
+         "creation_date" : "",
+         "distribtion_date" : "".
+         "status" : "",
+         "item_list" : [
+            {
+                "item_type":"",
+                "item_id" : "",
+                "item_name" : "",
+                "quantity": "",
+                "delivery_status": "",
+                "notes" : "",
+            },
+            {
+                "item_type":"",
+                "item_id" : "",
+                "quantity": "",
+                "delivery_status": "",
+                "notes" : ""
+            }
+
+    ]
+    },
+   "dist2": {
+         "creation_date" : "",
+         "distribtion_date" : "".
+         "status" : "",
+         "item_list" : [
+            {
+                "item_type":"",
+                "item_id" : "",
+                "item_name" : "",
+                "quantity": "",
+                "delivery_status": "",
+                "notes" : "",
+            },
+            {
+                "item_type":"",
+                "item_id" : "",
+                "quantity": "",
+                "delivery_status": "",
+                "notes" : ""
+            }
+
+    ]
+    }
+    ]
+
+    "child_list" : [],
+    "history" : [
+        {
+            "action" : "HouseHold Added",
+            "additional_info" : "",
+            "organisation" : "oxfam",
+            "user" : "oxfam",
+            "datetime" : "2015-01-13T10:27:57.505Z"
+        },
+        {
+            "action" : "Household Completed",
+            "additional_info" : "",
+            "organisation" : "oxfam",
+            "user" : "oxfam",
+            "datetime" : "2015-02-17 12:18"
+        }
+    ]
+}
+

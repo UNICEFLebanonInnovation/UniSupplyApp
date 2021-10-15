@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Test Server Settings" >
+
+        <SwitchPreference
+            android:title="Turn On Test"
+            android:summary="Turn on Test environment"
+            android:key="test_switch"/>
+
+        <EditTextPreference
+            android:title="Server URL:"
+            android:summary="Set Server URL"
+            android:key="prefServerURL"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Security Settings" >
+        <EditTextPreference
+            android:title="Username:"
+            android:summary="Set Username Here"
+            android:key="prefServerName"/>
+        <EditTextPreference
+            android:title="Password:"
+            android:summary="Set Password Here"
+            android:inputType="textPassword"
+            android:key="prefServerPassword"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Connection Test" >
+
+        <Preference
+            android:title="Test Connection"
+            android:summary="Test Connection Here"
+            android:key="prefButton"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

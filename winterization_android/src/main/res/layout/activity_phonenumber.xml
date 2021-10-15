@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Check if Phone Number Exists"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal" android:textSize="26dp"
+            android:paddingBottom="30dp"/>
+
+    <EditText
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_searchBeneficiaries" android:layout_gravity="center_horizontal"
+            android:textAlignment="center" android:gravity="center" android:hint="check Phone Number"/>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_beneficiaries" android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

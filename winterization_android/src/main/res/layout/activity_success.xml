@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Survey Completed"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:id="@+id/textView"/>
+
+
+    <ImageView
+        android:background="@drawable/abc_item_background_holo_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"  android:paddingBottom="10dp"
+        android:layout_height="wrap_content"  android:layout_gravity="center"
+        android:gravity="center" android:layout_marginTop="20dp">
+
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custombutton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="23dp"
+            android:text="@string/edit_last_entry"
+            android:id="@+id/button_editCurrentBeneficiary"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="23dp"
+
+            android:layout_marginLeft="10dp"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Start New Assessment"
+            android:background="@drawable/custombutton_green"
+            android:id="@+id/button_addNewBeneficiary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"  android:paddingBottom="10dp"
+        android:layout_height="wrap_content"  android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custombutton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/home_screen"
+            android:id="@+id/button_goToHomeScreen"/>
+    </LinearLayout>
+
+</LinearLayout>

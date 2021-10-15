@@ -1,0 +1,58 @@
+#
+# Build configuration for Circle CI
+#
+
+general:
+    artifacts:
+        - /home/ubuntu/iSupply/app/build/outputs/apk/
+
+machine:
+    environment:
+        ANDROID_HOME: /usr/local/android-sdk-linux
+
+dependencies:
+    override:
+        -  echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-19.1.0,android-19,extra-google-m2repository,extra-google-google_play_services,extra-android-support
+        - chmod +x gradlew
+        - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies --info
+        - sudo pip install awscli
+
+
+machine:
+
+    java:
+        version: openjdk7
+
+    environment:
+        ADB_INSTALL_TIMEOUT: 30
+        _JAVA_OPTIONS: "-Xms256m -Xmx1280m -XX:MaxPermSize=350m"
+        GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx1536m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError"'
+
+
+
+
+test:
+
+    override:
+
+        - (./gradlew clean assembleRelease -PdisablePreDex):
+            timeout: 360
+
+        - emulator -avd circleci-android22  -no-audio  :
+            background: true
+            parallel: true
+
+        - circle-android wait-for-boot
+
+        - ./gradlew connectedAndroidTest -PdisablePreDex
+
+        - (echo "Running UI tests!")
+
+        - (./gradlew cC)    
+
+        - (echo "Done UI tests!")
+
+        - ./gradlew assembleRelease -PdisablePreDex
+
+        - cp -r /home/ubuntu/iSupply/winterization_android/build/outputs/ $CIRCLE_ARTIFACTS
+

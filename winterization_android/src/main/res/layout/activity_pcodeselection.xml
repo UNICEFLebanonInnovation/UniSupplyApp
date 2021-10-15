@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/select_location_title"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView" android:layout_gravity="center"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/editText_pcodeSearch" android:layout_gravity="center" android:hint="Search P-Codes" android:textAlignment="center"/>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <ListView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarStyle="outsideOverlay"
+            android:id="@+id/pcode_list"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/custombutton"
+        android:text="NO P-Code"
+        android:padding="25dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+
+        android:id="@+id/button_noPCode" />
+  </RelativeLayout>
+</LinearLayout>

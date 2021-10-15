@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+
+
+    <ImageView android:tag="gender"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:gravity="center"
+    />
+
+
+
+    <TextView android:tag="age"
+              android:layout_width="wrap_content"
+              android:layout_height="47dp"
+              android:gravity="center_vertical"
+              android:text="device"
+              android:textSize="20dp"
+              android:layout_marginLeft="10dp"
+            />
+
+    <LinearLayout
+                       android:layout_width="fill_parent"
+                       android:tag="parentTag"
+                       android:layout_height="wrap_content"
+                       android:gravity="right"
+                       android:clickable="true" android:focusable="false">
+
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/custombutton_red" android:textAlignment="center"
+                android:layout_alignParentEnd="true" android:text="Remove" android:layout_gravity="center_vertical" android:gravity="center_vertical" android:tag="button_removeChild" android:focusable="false" android:layout_marginTop="3dp" android:layout_marginBottom="3dp" android:paddingRight="10dp" android:paddingLeft="10dp"/>
+
+            </LinearLayout>
+
+</LinearLayout>

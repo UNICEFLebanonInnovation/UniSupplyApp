@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender_array">
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+
+    <string-array name="search_array">
+        <item>By ID</item>
+        <item>By pcode name</item>
+        <item>By barcode number</item>
+    </string-array>
+
+    <string-array name="search_array2">
+        <item>By ID</item>
+        <item>By phone number</item>
+    </string-array>
+
+
+    <string-array name="relationship_types">
+        <item>----</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Grand-Father</item>
+        <item>Grand-Mother</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Cousin</item>
+        <item>Family Friend</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="phone_array">
+        <item>----</item>
+        <item>To Me</item>
+        <item>Family Member</item>
+        <item>Friend</item>
+        <item>Shawish</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="gender_types">
+        <item>----</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="marital_types">
+        <item>----</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Separated</item>
+        <item>Widowed</item>
+    </string-array>
+
+
+
+    <string-array name="id_types">
+        <item>----</item>
+        <item>National</item>
+        <item>Passport</item>
+    </string-array>
+
+    <string-array name="id_types2">
+        <item>----</item>
+        <item>No ID</item>
+        <item>National</item>
+        <item>Passport</item>
+    </string-array>
+
+    <string-array name="id_yesno">
+        <item>----</item>
+        <item>NO</item>
+        <item>YES</item>
+
+    </string-array>
+
+    <string-array name="id_types_vouchers">
+        <item>UNHCR</item>
+        <item>NPTP</item>
+    </string-array>
+
+    <string-array name="kit_types">
+        <item>3 months</item>
+        <item>12 months</item>
+        <item>2 years</item>
+        <item>3 years</item>
+        <item>5 years</item>
+        <item>7 years</item>
+        <item>9 years</item>
+        <item>12 years</item>
+        <item>14 years</item>
+    </string-array>
+
+
+    <string-array name="age_array">
+        <item>0 to 3 months</item>
+        <item>3 to 12 months</item>
+        <item>1 year old</item>
+        <item>2 years old</item>
+        <item>3 years old</item>
+        <item>4 years old</item>
+        <item>5 years old</item>
+        <item>6 years old</item>
+        <item>7 years old</item>
+        <item>8 years old</item>
+        <item>9 years old</item>
+        <item>10 years old</item>
+        <item>11 years old</item>
+        <item>12 years old</item>
+        <item>13 years old</item>
+        <item>14 years old</item>
+    </string-array>
+
+
+    <string-array name="location_array">
+        <item>----</item>
+        <item>Not Moving</item>
+        <item>Syria</item>
+        <item>Lebanon</item>
+        <item>Elsewhere</item>
+    </string-array>
+
+    <string-array name="empty_array">
+        <item>----</item>
+    </string-array>
+
+    <string-array name="age_array2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,1 @@
+include ':winterization_android', 'zbar', ':libraries:couchbase-lite-android', ':libraries:couchbase-lite-java-core', ':volley'

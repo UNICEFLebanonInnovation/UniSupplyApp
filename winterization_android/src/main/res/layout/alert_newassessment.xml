@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current P-Code:"
+        android:textSize="18dp"
+        android:id="@+id/textView_Pcode"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Use Same Pcode"
+        android:id="@+id/Button_samePcode"
+        android:layout_weight="0.5"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <!--Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Case No. Manual Entry"
+            android:id="@+id/Button_addBenny"
+            android:textAppearance="?android:attr/textAppearanceLarge"/-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Select New Pcode"
+        android:id="@+id/Button_newPcode"
+        android:layout_weight="0.5"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+</LinearLayout>

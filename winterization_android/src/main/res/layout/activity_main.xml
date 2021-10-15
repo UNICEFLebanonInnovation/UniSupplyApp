@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/layout_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="User Preference Goes Here"
+            android:id="@+id/textView_userPref" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/custombutton"
+
+            android:text="@string/begin_assessments"
+            android:layout_marginTop="10dp"
+
+            android:textSize="20sp"
+            android:id="@+id/add_resident_btn" android:layout_gravity="center_horizontal" android:layout_weight="0.16"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/custombutton"            android:text="@string/voucher_distribution"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/add_vouchers" android:layout_gravity="center_horizontal" android:layout_weight="0.16"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/main_search_households"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/custombutton"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+
+            android:id="@+id/browse_residents_btn" android:layout_gravity="center_horizontal" android:layout_weight="0.16"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/custombutton"
+            android:text="@string/start_distribution"
+            android:textSize="20sp"
+
+            android:id="@+id/scan_barcode_btn" android:layout_gravity="center_horizontal" android:layout_weight="0.16"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/custombutton"
+            android:text="@string/redeem_vouchers"
+            android:textSize="20sp"
+
+            android:id="@+id/redeem_vouchers_btn" android:layout_gravity="center_horizontal" android:layout_weight="0.16"/>
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/layout_voucherDetails"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Add Voucher for Child"
+            android:id="@+id/textView_titleText" android:layout_gravity="center_horizontal" android:textSize="26dp"
+            android:paddingBottom="30dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/name"
+                android:paddingRight="10dp"
+
+                android:paddingLeft="10dp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Child's Name"
+                android:id="@+id/editText_childName"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/age"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/age_array2"
+                android:id="@+id/spinner_age"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/gender"
+
+                android:paddingRight="10dp"
+
+                android:paddingLeft="10dp"/>
+        <Spinner
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/gender_array"
+                android:textSize="25sp"
+                android:id="@+id/spinner_gender"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/voucher_code"
+                android:paddingRight="10dp"
+
+                android:paddingLeft="10dp"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Press here for Barcode"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textIsSelectable="true" android:clickable="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:id="@+id/textView_voucherCode"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Add Child"
+            android:id="@+id/add_child_btn" android:background="@drawable/custombutton_green" android:layout_gravity="center_horizontal" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Save Child"
+            android:id="@+id/edit_child_btn" android:background="@drawable/custombutton_green" android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="Remove Child"
+            android:id="@+id/remove_child_btn" android:background="@drawable/custombutton_red" android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

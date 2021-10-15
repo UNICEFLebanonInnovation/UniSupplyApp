@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/edit_household"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView_editBen" android:layout_gravity="center_horizontal" android:paddingBottom="20dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Unicef" >
+            <ImageView
+                android:background="@drawable/abc_item_background_holo_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/site_details"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                />
+            <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/site_name"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_geolocationData"
+                    android:textSize="20sp"
+                    android:hint="Touch here to set P-Code"
+                    android:textColor="@color/white"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="P-Code:"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_PCodeNo"
+                    android:textSize="20sp"
+                    android:hint="Touch here to set P-Code"
+                    android:textColor="@color/white"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+
+            </LinearLayout>
+
+            <!--LinearLayout
+                    android:orientation="vertical" android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/geolocation_data"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+
+                <LinearLayout
+                        android:orientation="horizontal" android:paddingBottom="5dp"
+                        android:layout_width="match_parent" android:layout_marginLeft="30dp"
+                        android:layout_height="wrap_content"
+                        >
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:textColor="@color/white"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/latitude"
+                            android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp"
+
+                            android:id="@+id/editText_latitude" android:hint="Latitude" android:singleLine="true"             android:imeOptions="actionDone"
+                            />
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal" android:paddingBottom="5dp"
+                        android:layout_width="match_parent" android:layout_marginLeft="30dp"
+                        android:layout_height="wrap_content"
+                        >
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/longitude"
+                            android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp"
+
+                            android:textColor="@color/white"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+
+                            android:id="@+id/editText_longitude" android:hint="Longitude" android:singleLine="true"             android:imeOptions="actionDone"
+                            />
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal" android:paddingBottom="10dp"
+                        android:layout_width="match_parent" android:layout_marginLeft="30dp"
+                        android:layout_height="wrap_content"
+                        >
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/altitude"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp"
+
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/white"
+                            android:id="@+id/editText_altitude" android:hint="Altitude" android:singleLine="true"             android:imeOptions="actionDone"
+                            />
+                </LinearLayout>
+            </LinearLayout-->
+        </LinearLayout>
+        <ImageView
+            android:background="@drawable/abc_item_background_holo_dark"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PA Details"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"  android:paddingBottom="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView_idNumField"
+                android:text="@string/id_number"
+                android:textSize="20sp"
+
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/editText_idNumber" android:imeOptions="actionDone"
+                android:hint="id number" android:singleLine="true"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"  android:paddingBottom="10dp"
+            android:id="@+id/layout_idNotes"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/id_notes"
+                android:id="@+id/textView_idNotes"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="20"
+                android:textSize="20sp"
+                android:hint="please enter reason"
+                android:id="@+id/editText_idNotes" android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"  android:paddingBottom="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/idTypeField"
+                android:text="@string/id_type"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/id_types"
+                android:textSize="20sp"
+                android:id="@+id/spinner_idTypes" android:imeOptions="actionDone"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView_surnameField"
+                    android:text="@string/family_surname"                    android:textSize="20sp"
+
+                    android:paddingLeft="10dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_familySurname"
+                    android:textSize="20sp"
+                    android:imeOptions="actionDone"
+                    android:hint="Family Surname" android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_firstField"                    android:textSize="20sp"
+
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/first_name"
+                    android:paddingLeft="10dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_firstName"                             android:textSize="20sp"
+                    android:imeOptions="actionDone"
+                    android:hint="First name" android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal" android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView_middleField"
+
+                    android:text="@string/middle_name"
+                    android:paddingLeft="10dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_middleName"                      android:textSize="20sp"
+                    android:imeOptions="actionDone"
+                    android:hint="Middle name" android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"  android:paddingBottom="10dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/relationship_type"
+                    android:id="@+id/textView_relationshipField"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"/>
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/relationship_types"
+                    android:textSize="20sp"
+                    style="@style/spinnerItemStyle"
+                    android:prompt="@string/idSpinnerPrompt"
+                    android:id="@+id/spinner_relationshipTypes" android:imeOptions="actionDone"
+                    android:singleLine="true"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:visibility="visible"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Is the Principal Applicant still present?"
+                android:id="@+id/textView_question3"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.5"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/id_yesno"
+                android:textSize="20sp"
+                style="@style/spinnerItemStyle"
+                android:prompt="@string/idSpinnerPrompt"
+                android:id="@+id/spinner_pa" android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal" android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView_phoneField"
+                android:textSize="20sp"
+                android:text="@string/phone_number"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView_phoneField_961"
+                android:text="(+961)"
+                android:paddingLeft="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_familyPhoneNumber"
+                android:maxLength="8"
+                android:imeOptions="actionDone"
+                android:textSize="20sp"
+                android:hint="Phone No." android:singleLine="true" android:phoneNumber="true"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"  android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Gender:"
+                android:id="@+id/textView_genderField"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/gender_types"
+                android:textSize="20sp"
+                style="@style/spinnerItemStyle"
+                android:prompt="@string/idSpinnerPrompt"
+                android:id="@+id/spinner_genderTypes" android:imeOptions="actionDone"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"  android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Marital Status:"
+                android:id="@+id/textView_maritalField"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/marital_types"
+                android:textSize="20sp"
+                style="@style/spinnerItemStyle"
+                android:prompt="@string/idSpinnerPrompt"
+                android:id="@+id/spinner_maritalTypes" android:imeOptions="actionDone"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView_DoBField"
+                android:textSize="20sp"
+                android:text="Date of Birth"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView_DoB"
+                android:text="No DoB Set"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/custombutton"
+                android:id="@+id/button_dob"
+                android:text = "Set DoB"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@drawable/customborder"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/list_of_children"                    android:textSize="20sp"
+
+                android:paddingLeft="10dp"/>
+            <com.unicefwinterizationplatform.winterization_android.NonScrollListView
+                android:id="@+id/child_list"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"/>
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:textSize="20sp"
+                android:background="@drawable/custombutton"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingRight="80dp"
+                android:paddingLeft="80dp"
+
+                android:text="@string/add_child"
+                android:id="@+id/add_child_btn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:visibility="visible"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Do you have school-aged\nchildren not attending school?"
+                android:id="@+id/textView_question1"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.5"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/id_yesno"
+                android:textSize="15sp"
+                style="@style/spinnerItemStyle"
+                android:prompt="@string/idSpinnerPrompt"
+                android:id="@+id/spinner_yesno" android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:visibility="visible"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Do you have school-aged\nchildren working?"
+                android:id="@+id/textView_question2"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.5"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/id_yesno"
+                android:textSize="20sp"
+                style="@style/spinnerItemStyle"
+                android:prompt="@string/idSpinnerPrompt"
+                android:id="@+id/spinner_yesno2" android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:visibility="visible"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Will the family move in the\nnear future?"
+                android:id="@+id/textView_question4"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.5"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/id_yesno"
+                android:textSize="20sp"
+                style="@style/spinnerItemStyle"
+                android:prompt="@string/idSpinnerPrompt"
+                android:id="@+id/spinner_yesno3" android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/editText_where"  android:imeOptions="actionDone"
+            android:hint="Where will they move?" android:visibility="gone"  android:singleLine="true"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custombutton_green"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                android:textSize="20sp"
+                android:text="Edit Form" android:gravity="center"
+                android:id="@+id/button_saveBeneficiary" android:layout_gravity="center" />
+
+            <!--Button
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" android:background="@drawable/custombutton_red"
+                    android:text="@string/delete_household" android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/button_removeBeneficiary" android:layout_gravity="center"/-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
